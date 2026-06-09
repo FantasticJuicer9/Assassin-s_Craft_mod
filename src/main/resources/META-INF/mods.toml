@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[45,)"
+license="MIT"
+
+[[dependencies.assassincraft]]
+    modId="forge"
+    mandatory=true
+    versionRange="[45.0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.assassincraft]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.4,1.20)"
+    ordering="NONE"
+    side="BOTH"
+
+[[mods]]
+    modId="assassincraft"
+    version="1.0.0"
+    displayName="AssassinCraft"
+    description='''
+        Brings Assassin's Creed-style parkour to Minecraft Java.
+        Climb walls, hang from ledges, shimmy, vault, and perform
+        back & side ejects. Requiescat in Pace.
+    '''
+    logoFile="assassincraft.png"
+
+[[mixins]]
+    config="assassincraft.mixins.json"
+    
